@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "46393773483",
+    "firebase_url": "https://loginandregiser.firebaseio.com",
+    "project_id": "loginandregiser",
+    "storage_bucket": "loginandregiser.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46393773483:android:dc7c14d05446a938",
+        "android_client_info": {
+          "package_name": "com.e.ishar.supplychainmodel2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46393773483-q320ldmb4o4j1o8ot9fhm9gpshtimrgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbeRYFBcXuJf3eJTVV64iLoX-Zx9v4Rrg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

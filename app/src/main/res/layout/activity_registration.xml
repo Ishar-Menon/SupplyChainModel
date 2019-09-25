@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.e.ishar.supplychainmodel2.RegistrationActivity">
+
+    <EditText
+        android:id="@+id/rgname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/rgEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rgname"
+        android:layout_alignStart="@+id/rgname"
+        android:layout_below="@+id/rgname"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/rgPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/rgEmail"
+        android:layout_alignRight="@+id/rgEmail"
+        android:layout_below="@+id/rgEmail"
+        android:layout_marginTop="53dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/rdButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="53dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Register" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/rdFarmer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rgPassword"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="91dp"
+            android:layout_toLeftOf="@+id/rdVendor"
+            android:layout_toStartOf="@+id/rdVendor"
+            android:layout_weight="1"
+            android:text="Farmer"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rdVendor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/rdFarmer"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:text="Vendor"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rdUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/rdVendor"
+            android:layout_alignBottom="@+id/rdVendor"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="31dp"
+            android:layout_marginRight="31dp"
+            android:layout_weight="1"
+            android:text="User"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+
+</RelativeLayout>
